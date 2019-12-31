@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+@author wang wei
+@author li yilei
+@author dong ziqi
+ -->
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.NoActionBar.Fullscreen">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="NumberButton">
+        <item name="android:layout_width">@dimen/board_button_width</item>
+        <item name="android:layout_height">@dimen/board_button_height</item>
+        <item name="android:src">@drawable/tile</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:onClick">selectedTile</item>
+    </style>
+
+    <style name="keypadButton">
+        <item name="android:onClick">selectedKey</item>
+    </style>
+</resources>

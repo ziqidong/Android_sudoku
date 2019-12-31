@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_keypad"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/keypad_color"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".GameActivity">
+    <!--
+@author wang wei
+@author li yilei
+@author dong ziqi
+ -->
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/keypad_label"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textColor="@android:color/white"
+        android:textSize="30px" />
+
+    <include
+        layout="@layout/keypad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

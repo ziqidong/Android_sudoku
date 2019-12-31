@@ -1,0 +1,51 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:baselineAligned="false"
+    android:elevation="8dp"
+    tools:context=".Sudoku">
+    <!--
+@author wang wei
+@author li yilei
+@author dong ziqi
+ -->
+
+
+    <TextView
+        android:background="@android:color/black"
+        android:padding="5dp"
+        android:text="@string/difficulty_label"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/easy_button"
+        android:background="@color/text_color"
+        android:gravity="left"
+        android:padding="15dp"
+        android:text="@string/easy_label"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/medium_button"
+        android:background="@color/text_color"
+        android:gravity="left"
+        android:padding="15dp"
+        android:text="@string/medium_label"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/hard_button"
+        android:background="@color/text_color"
+        android:gravity="left"
+        android:padding="15dp"
+        android:text="@string/hard_label"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColorHint="@android:color/holo_green_dark"
+        android:textSize="24sp" />
+</TableLayout>
